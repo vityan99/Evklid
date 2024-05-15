@@ -1,0 +1,249 @@
+@media (max-width: 1800px) {
+  .footer__left {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1600px) {
+  .about__banner-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .about__content {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .about__banner {
+    margin-bottom: 32px;
+    margin-right: 0;
+    width: 100%;
+    min-height: 640px;
+  }
+
+  .about__paragraph {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .about__btn {
+    -ms-flex-item-align: normal;
+    -ms-grid-row-align: normal;
+    align-self: normal;
+  }
+
+  .about__descr {
+    margin-bottom: 60px;
+    max-width: 100%;
+  }
+
+  .about__banner-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .about__paragraph {
+    max-width: 800px;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .about__btn {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .about__item {
+    padding: 65px 150px 60px 77px;
+    max-width: 100%;
+  }
+
+  .about__item-descr {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .about__img {
+    margin-right: 50px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .about__img-file {
+    width: 190px;
+  }
+
+  .about__h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1400px) {
+  .about__paragraph {
+    margin-right: 25px;
+  }
+
+  .questions {
+    margin-bottom: 80px;
+  }
+
+  .questions__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .questions__sub {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+
+  .questions__paragraph {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+
+  .footer__paragraph {
+    display: none;
+  }
+
+  .footer__center {
+    margin-right: 0;
+    max-width: 541px;
+  }
+
+  .footer__button {
+    padding: 19px 37px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0px 50px;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .header__logo {
+    width: 150px;
+  }
+
+  .header__container {
+    padding: 26px 50px;
+  }
+
+  .header__list {
+    gap: 60px;
+    margin-right: 105px;
+  }
+
+  .hero {
+    margin-bottom: 35px;
+  }
+
+  .hero__content {
+    padding: 160px 77px;
+    background-image: url("../img/hero@1024.jpg");
+  }
+
+  .hero__title {
+    font-size: 60px;
+    font-style: normal;
+    line-height: normal;
+    max-width: 770px;
+    margin-bottom: 16px;
+  }
+
+  .hero__descr {
+    font-size: 20px;
+    max-width: 660px;
+    margin-bottom: 60px;
+  }
+
+  .about {
+    margin-bottom: 77px;
+  }
+
+  .about__item {
+    padding: 65px 150px 65px 77px;
+  }
+
+  .about__img1 {
+    background-position: 77px center;
+  }
+
+  .about__img2 {
+    background-position: 77px center;
+  }
+
+  .about__banner {
+    background-image: url("../img/about@1024.png");
+  }
+
+  .about__paragraph {
+    max-width: 454px;
+  }
+
+  .about__btn {
+    padding: 20px 38px;
+  }
+
+  .stages {
+    margin-bottom: 80px;
+  }
+
+  .stages__left {
+    margin-right: 50px;
+  }
+
+  .stages__paragraph {
+    margin-bottom: 25px;
+    margin-right: auto;
+  }
+
+  .stages__right {
+    background-image: url("../img/stages@1024.png");
+    max-width: 437px;
+    background-size: unset;
+    background-position: center bottom;
+  }
+
+  .footer__left {
+    margin-right: auto;
+  }
+
+  .footer__message::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .footer__message::-moz-placeholder {
+    font-size: 16px;
+  }
+
+  .footer__message:-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .footer__message::-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .footer__message::placeholder {
+    font-size: 16px;
+  }
+}
